@@ -1,0 +1,12 @@
+.operacoes {
+    background-color: rgb(53, 53, 53);
+    padding: 2%;
+    border-radius: 10px;
+    display: grid;
+}
+.resultado {
+    border-radius: 10px;
+    background-color: rgb(66, 66, 66);
+    margin: 2% 0%;
+    width: 50%;
+}

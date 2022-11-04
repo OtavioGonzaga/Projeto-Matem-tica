@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Otavio Luiz Gonzaga">
+    <meta name="description" content="NeoChrono, Desenvolvimento web">
+    <link rel="stylesheet" href="css/operacoes.css">
+    <link rel="stylesheet" href="css/matematica.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="icon" href="img/pi.png">
+    <title>Soma - Matemática</title>
+</head>
+<body onload="clock()">
+    <header class="linha">
+        <div class="logo coluna col3">
+            <h1 class="sem-marcador"><a href="index.html">Matemática</a></h1>
+        </div>
+        <div class="coluna col7">
+            <nav>
+                <ul class="inline menu sem-marcador">
+                    <li><a href="soma.html">SOMA</a></li>
+                    <li><a href="subtracao.html">SUBTRAÇÃO</a></li>
+                    <li><a href="multiplicacao.html">MULTIPLICAÇÃO</a></li>
+                    <li><a href="divisao">DIVISÃO</a></li>
+                    <li><a href="analisador.html">ANALISADOR DE NÚMEROS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="operacoes coluna col5">
+            <div class="inline">
+                <label for="num">Soma: <input type="number" id="num" placeholder="Insira um número..."></label>
+                <input type="button" value="+" onclick="somar()">
+                <input type="button" value="Limpar" onclick="limpar()">
+            </div>
+            <div class="resultado inline">
+                <p>Resultado:</p>
+                <p>O resultado aparecerá aqui...</p>
+            </div>
+        </div>
+    </section>
+    <footer><p></p>&copy;NeoChrono</p></footer>
+</body>
+<script src="script/operacoes.js"></script>
+</html>
